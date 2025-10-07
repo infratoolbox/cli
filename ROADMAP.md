@@ -2,19 +2,6 @@
 
 This document outlines the proposed features and improvements planned for InfraToolbox in future versions.
 
-## v0.2.0 - Additional Integrations
-
-### Features
-
-- **Merge File**: Extend InfraToolbox to support merging Terraform variable files, preventing variable duplication and simplifying configuration management.
-- **Terragrunt Integration**: Integrate support for running Terragrunt commands alongside Terraform, enabling users to leverage both tools seamlessly within InfraToolbox.
-- **Pre-built Module Templates**: Provide pre-built Terraform module templates for popular cloud services (AWS, Azure, GCP).
-
-### Enhancements
-
-- **Improved Documentation**: Expand the documentation to cover more advanced use cases and provide detailed installation guides for various environments.
-- **Command Auto-completion**: Implement shell auto-completion for bash, zsh, and fish shells.
-  
 ## v0.3.0 - Monitoring and Auditing
 
 ### Features
