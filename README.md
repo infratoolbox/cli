@@ -17,13 +17,13 @@ InfraToolbox is a CLI tool for managing infrastructure as code, integrating supp
 ### Using Go
 
 ```bash
-go install github.com/yourusername/infratoolbox@latest
+go install github.com/infratoolbox/cli@latest
 ```
 
 ### From Source Code
 
 ```bash
-git clone https://github.com/yourusername/infratoolbox.git
+git clone https://github.com/infratoolbox/cli.git
 cd infratoolbox
 go build -o infratoolbox
 ```
@@ -50,7 +50,7 @@ infratoolbox merge file1.tf file2.tf --output merged.tf
 ### Using Homebrew
 
 ```bash
-brew tap yourusername/infratoolbox https://github.com/yourusername/infratoolbox
+brew tap infratoolbox/cli https://github.com/infratoolbox/cli
 brew install infratoolbox
 ```
 
